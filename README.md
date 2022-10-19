@@ -15,7 +15,7 @@
 </div>
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Acerca del Proyecto
 
 - WebSite basado en la API de MARVEL
   https://developer.marvel.com 
@@ -28,7 +28,7 @@
 
 
 
-### Built With
+### Construido con
 
 Este proyecto fue creado utilizando React. js, Redux, bootstrap 5
 
