@@ -1,8 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import authSlice from '../redux/slices/authSlice';
+import { comicsApi } from '../redux/api/comic';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    authSlice: authSlice,
+    [comicsApi.reducerPath]: comicsApi.reducer,
   },
 });
